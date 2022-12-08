@@ -1,0 +1,18 @@
+export PATH=$PATH:/usr/local/go/bin
+
+mkdir:
+     mkdir filename
+     mkdir -p filename1/filename2/filename3
+     mkdir -v -p filename1/filename
+     mkdir -m 700 python
+cd:
+  cd ~
+  cd /
+  cd fldername
+  cd ..
+  cd ../../
+touch:
+   touch filename.py ---it will create file
+   touch -a--acces time change
+   touch -c--
+   touch -c-d modification time it chang
